@@ -1,20 +1,9 @@
 # NFTs Marketplace
 
-# Crypto Punks - Ethereum Project
+## Crypto Punks - Ethereum Project
 
-Useful commands:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-node scripts/deploy.js
-npx hardhat help
-```
-
-# Setup Environment
-Please run the following commands:
+### Setup Environment
+Please run the following commands
 
 ```shell
 npm install
@@ -22,7 +11,7 @@ yarn install
 npx hardhat compile
 node scripts/deploy.js
 ```
-Other useful commands:
+Other useful commands
 
 ```shell
 npx hardhat accounts
@@ -31,10 +20,16 @@ npx hardhat test
 npx hardhat help
 ```
 
-It is necessary to modify the file ".env.example" so that it is ".env" and contains the private key of the account that is going to display the contract and the identifier of the project previously created in https://infura.io/
+It is necessary to modify the file ".env.example" so that it is ".env" and contains the private key of the account that is going to display the contract and the identifier of the project previously created in [Infura](https://faucets.chain.link/rinkeby)
 
-# Publishing
-Use the following command to generate and export a single smart contract for the moment of verifying and validating the ByteCode of a contract in some network>
+###  Publishing
+This is an example to deploy to the Rinkeby testnet
+
+``npx hardhat run .\scripts\deploy.js --network rinkeby``
+
+[Here](https://faucets.chain.link/rinkeby) you can get ether for testing
+
+Use the following command to generate and export a single smart contract for the moment of verifying and validating the ByteCode of a contract in some network
 
 ``npx hardhat flatten > Flattened.sol``
 
