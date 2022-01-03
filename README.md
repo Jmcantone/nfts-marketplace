@@ -1,7 +1,7 @@
 # NFTs Marketplace
 ## Crypto Punks - Ethereum Project
 This project contains the smart contracts and all the necessary configuration for the creation of non-fungible tokens.
-[Hardhat](https://hardhat.org/) is used as a development environment and OpenZeppelin security standards, such as [ERC721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) and  [ERC721Enumerable](ttps://docs.openzeppelin.com/contracts/2.x/api/token/erc721#ERC721Enumerable), are used.
+[Hardhat](https://hardhat.org/) is used as a development environment and OpenZeppelin security standards, such as [ERC721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) and  [ERC721Enumerable](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721#ERC721Enumerable), are used.
 
 ### Setup Environment
 Please run the following commands
