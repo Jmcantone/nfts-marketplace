@@ -2,7 +2,7 @@
 ## Crypto Punks - Ethereum Project
 This project contains the smart contracts and all the necessary configuration for the creation of non-fungible tokens.
 
-Each Nft consists of an image formed by many attributes, generated in a pseudo-random way and obtained from [Avataaars](https://getavataaars.com/)
+Each NFT consists of an image formed by many attributes, generated in a pseudo-random way and obtained from [Avataaars](https://getavataaars.com/)
 
 [Hardhat](https://hardhat.org/) is used as a development environment and OpenZeppelin security standards, such as [ERC721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721) and  [ERC721Enumerable](ttps://docs.openzeppelin.com/contracts/2.x/api/token/erc721#ERC721Enumerable), are used.
 
